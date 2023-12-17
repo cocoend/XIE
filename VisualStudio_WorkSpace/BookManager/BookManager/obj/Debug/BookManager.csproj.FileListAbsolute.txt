@@ -1,0 +1,10 @@
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.csproj.AssemblyReference.cache
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\work\XIE\VisualStudio_WorkSpace\BookManager\BookManager\obj\Debug\BookManager.pdb

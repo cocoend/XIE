@@ -1,0 +1,6 @@
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.pdb
