@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public partial class PersonModel: FatherModel
+    public partial class PersonModel : FatherModel
     {
         public string Password { get; set; }
         public string PasswordVerify { get; set; }

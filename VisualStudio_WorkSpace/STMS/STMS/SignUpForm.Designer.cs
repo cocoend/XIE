@@ -155,11 +155,11 @@
             this.passwordTextBox.SkinTxt.TabIndex = 0;
             this.passwordTextBox.SkinTxt.UseSystemPasswordChar = true;
             this.passwordTextBox.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.passwordTextBox.SkinTxt.WaterText = "(必須)";
+            this.passwordTextBox.SkinTxt.WaterText = "パスワード6-32桁(必須)";
             this.passwordTextBox.TabIndex = 1;
             this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.passwordTextBox.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.passwordTextBox.WaterText = "(必須)";
+            this.passwordTextBox.WaterText = "パスワード6-32桁(必須)";
             this.passwordTextBox.WordWrap = true;
             // 
             // skinLabel3
