@@ -8,12 +8,11 @@ D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\STMS.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.LoginForm.resources
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.exe
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.pdb
-D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.SingUpForm.resources
-D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\CSkin.dll
-D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\CSkin.xml
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.csproj.CopyComplete
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\BLL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\Model.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\BLL.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\Model.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.SignUpForm.resources
+D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\DAL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\DAL.pdb

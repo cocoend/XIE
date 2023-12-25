@@ -1,6 +1,9 @@
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\DAL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\Model.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\Model.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.pdb

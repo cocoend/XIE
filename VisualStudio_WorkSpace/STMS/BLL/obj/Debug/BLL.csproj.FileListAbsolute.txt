@@ -1,6 +1,11 @@
-D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.dll
-D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\BLL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\DAL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\Model.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\bin\Debug\Model.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\BLL\obj\Debug\BLL.pdb

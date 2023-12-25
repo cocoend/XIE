@@ -32,8 +32,8 @@ namespace STMS
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             //新規登録
-            SingUpForm singUpForm = new SingUpForm();
-            singUpForm.ShowDialog();
+            SignUpForm sgnUpForm = new SignUpForm();
+            sgnUpForm.ShowDialog();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

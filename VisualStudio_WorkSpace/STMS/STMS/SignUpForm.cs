@@ -24,11 +24,11 @@ namespace STMS
             PersonModel personModel = new PersonModel();
             personModel.Name = nameTextBox.Text;
             personModel.Password = passwordTextBox.Text.Trim();
-            personModel.PasswordVerify = passwordTextBox.Text.Trim();
-            personModel.Brithday = brithdayDateTimePicker.Value;
+            personModel.PasswordVerify = passwordVerifyTextBox.Text.Trim();
+            personModel.Birthday = brithdayDateTimePicker.Value;
             personModel.Sex = sexSkinComboBox.SelectedIndex;
-            personModel.Telphone = telephoneTextBox.Text.Trim();
-            personModel.address = addressTextBox.Text.Trim();
+            personModel.Telephone = telephoneTextBox.Text.Trim();
+            personModel.Address = addressTextBox.Text.Trim();
             personModel.Father = fartherTextBox.Text.Trim();
             personModel.Mother = montherTextBox.Text.Trim();
             personModel.RegDate = RegdateTimePicker.Value;

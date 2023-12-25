@@ -11,10 +11,10 @@ namespace Model
         public string Password { get; set; }
         public string PasswordVerify { get; set; }
 
-        public DateTime Brithday { get; set; }
+        public DateTime Birthday { get; set; }
         public int Sex { get; set; }
-        public string Telphone { get; set; }
-        public string address { get; set; }
+        public string Telephone { get; set; }
+        public string Address { get; set; }
         public string Father { get; set; }
         public string Mother { get; set; }
         public DateTime RegDate { get; set; }

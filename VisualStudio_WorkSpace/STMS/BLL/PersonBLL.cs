@@ -4,31 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
+using DAL;
 
 namespace BLL
 {
     public class PersonBLL
     {
-        public bool Insert(PersonModel t,out string messageStr)
+        public bool Insert(PersonModel p,out string messageStr)
         {
             messageStr = "";
             bool succcess = false;
-            if (t.Name.Length == 0)
+            if (p.Name.Length == 0)
             {
                 messageStr = "ユーザー名を入力してください。";
             }
-            else if(t.Password.Length <6)
+            else if(p.Password.Length <6)
             {
                 messageStr = "パスワードが６桁以上必要";
             }
-            else if(t.Password != t.PasswordVerify)
+            else if(p.Password != p.PasswordVerify)
             {
                 messageStr = "パスワードが不一致";
             }
             else
             {
                 //DLLに転送
+                int count = new PersonDAL().Insert(p);
+                if (count > 0)
+                {
+                    messageStr = "新規登録成功";
+                    succcess = true;
+                }
+                else
+                {
+                    messageStr = "新規登録失敗";
+                }
             }
+            return succcess;
         }
     }
 }

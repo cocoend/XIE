@@ -69,12 +69,6 @@
     <Compile Include="SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SingUpForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SingUpForm.Designer.cs">
-      <DependentUpon>SingUpForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,9 +83,6 @@
     </Compile>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SingUpForm.resx">
-      <DependentUpon>SingUpForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +106,9 @@
       <Project>{4f82b3b4-3b4c-4986-9fc1-f7093d350535}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
