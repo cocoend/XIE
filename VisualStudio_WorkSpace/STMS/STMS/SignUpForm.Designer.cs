@@ -50,6 +50,14 @@
             this.cancleButton = new System.Windows.Forms.Button();
             this.brithdayDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.RegdateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.signupButtonEdit = new System.Windows.Forms.Button();
+            this.skinPanel1Admin = new CCWin.SkinControl.SkinPanel();
+            this.skinComboStatusBox = new CCWin.SkinControl.SkinComboBox();
+            this.skinComboLevelBox = new CCWin.SkinControl.SkinComboBox();
+            this.skinStatusLabel = new CCWin.SkinControl.SkinLabel();
+            this.skinLevelLabel = new CCWin.SkinControl.SkinLabel();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.skinPanel1Admin.SuspendLayout();
             this.SuspendLayout();
             // 
             // Label1
@@ -236,7 +244,7 @@
             this.skinLabel5.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel5.BorderColor = System.Drawing.Color.White;
             this.skinLabel5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel5.Location = new System.Drawing.Point(397, 109);
+            this.skinLabel5.Location = new System.Drawing.Point(349, 108);
             this.skinLabel5.Name = "skinLabel5";
             this.skinLabel5.Size = new System.Drawing.Size(32, 17);
             this.skinLabel5.TabIndex = 0;
@@ -252,7 +260,7 @@
             this.addressTextBox.IsPasswordChat = '\0';
             this.addressTextBox.IsSystemPasswordChar = false;
             this.addressTextBox.Lines = new string[0];
-            this.addressTextBox.Location = new System.Drawing.Point(400, 126);
+            this.addressTextBox.Location = new System.Drawing.Point(352, 125);
             this.addressTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.addressTextBox.MaxLength = 256;
             this.addressTextBox.MinimumSize = new System.Drawing.Size(28, 28);
@@ -290,7 +298,7 @@
             this.skinLabel6.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel6.BorderColor = System.Drawing.Color.White;
             this.skinLabel6.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel6.Location = new System.Drawing.Point(397, 168);
+            this.skinLabel6.Location = new System.Drawing.Point(349, 167);
             this.skinLabel6.Name = "skinLabel6";
             this.skinLabel6.Size = new System.Drawing.Size(44, 17);
             this.skinLabel6.TabIndex = 0;
@@ -306,7 +314,7 @@
             this.fartherTextBox.IsPasswordChat = '\0';
             this.fartherTextBox.IsSystemPasswordChar = false;
             this.fartherTextBox.Lines = new string[0];
-            this.fartherTextBox.Location = new System.Drawing.Point(400, 185);
+            this.fartherTextBox.Location = new System.Drawing.Point(352, 184);
             this.fartherTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.fartherTextBox.MaxLength = 16;
             this.fartherTextBox.MinimumSize = new System.Drawing.Size(28, 28);
@@ -344,7 +352,7 @@
             this.skinLabel7.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel7.BorderColor = System.Drawing.Color.White;
             this.skinLabel7.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel7.Location = new System.Drawing.Point(397, 233);
+            this.skinLabel7.Location = new System.Drawing.Point(349, 232);
             this.skinLabel7.Name = "skinLabel7";
             this.skinLabel7.Size = new System.Drawing.Size(44, 17);
             this.skinLabel7.TabIndex = 0;
@@ -360,7 +368,7 @@
             this.montherTextBox.IsPasswordChat = '\0';
             this.montherTextBox.IsSystemPasswordChar = false;
             this.montherTextBox.Lines = new string[0];
-            this.montherTextBox.Location = new System.Drawing.Point(400, 250);
+            this.montherTextBox.Location = new System.Drawing.Point(352, 249);
             this.montherTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.montherTextBox.MaxLength = 16;
             this.montherTextBox.MinimumSize = new System.Drawing.Size(28, 28);
@@ -398,7 +406,7 @@
             this.skinLabel8.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel8.BorderColor = System.Drawing.Color.White;
             this.skinLabel8.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel8.Location = new System.Drawing.Point(397, 291);
+            this.skinLabel8.Location = new System.Drawing.Point(349, 290);
             this.skinLabel8.Name = "skinLabel8";
             this.skinLabel8.Size = new System.Drawing.Size(56, 17);
             this.skinLabel8.TabIndex = 0;
@@ -422,7 +430,7 @@
             this.skinLabel9.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel9.BorderColor = System.Drawing.Color.White;
             this.skinLabel9.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel9.Location = new System.Drawing.Point(397, 50);
+            this.skinLabel9.Location = new System.Drawing.Point(349, 49);
             this.skinLabel9.Name = "skinLabel9";
             this.skinLabel9.Size = new System.Drawing.Size(56, 17);
             this.skinLabel9.TabIndex = 0;
@@ -438,7 +446,7 @@
             this.telephoneTextBox.IsPasswordChat = '\0';
             this.telephoneTextBox.IsSystemPasswordChar = false;
             this.telephoneTextBox.Lines = new string[0];
-            this.telephoneTextBox.Location = new System.Drawing.Point(400, 67);
+            this.telephoneTextBox.Location = new System.Drawing.Point(352, 66);
             this.telephoneTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.telephoneTextBox.MaxLength = 32;
             this.telephoneTextBox.MinimumSize = new System.Drawing.Size(28, 28);
@@ -493,11 +501,12 @@
             this.signupButton.TabIndex = 4;
             this.signupButton.Text = "新規登録";
             this.signupButton.UseVisualStyleBackColor = true;
+            this.signupButton.Visible = false;
             this.signupButton.Click += new System.EventHandler(this.signupButton_Click);
             // 
             // cancleButton
             // 
-            this.cancleButton.Location = new System.Drawing.Point(400, 374);
+            this.cancleButton.Location = new System.Drawing.Point(352, 373);
             this.cancleButton.Name = "cancleButton";
             this.cancleButton.Size = new System.Drawing.Size(75, 23);
             this.cancleButton.TabIndex = 4;
@@ -514,19 +523,109 @@
             // 
             // RegdateTimePicker
             // 
-            this.RegdateTimePicker.Location = new System.Drawing.Point(400, 311);
+            this.RegdateTimePicker.Location = new System.Drawing.Point(352, 310);
             this.RegdateTimePicker.Name = "RegdateTimePicker";
             this.RegdateTimePicker.Size = new System.Drawing.Size(278, 21);
             this.RegdateTimePicker.TabIndex = 5;
+            // 
+            // signupButtonEdit
+            // 
+            this.signupButtonEdit.Location = new System.Drawing.Point(115, 374);
+            this.signupButtonEdit.Name = "signupButtonEdit";
+            this.signupButtonEdit.Size = new System.Drawing.Size(75, 23);
+            this.signupButtonEdit.TabIndex = 4;
+            this.signupButtonEdit.Text = "編集";
+            this.signupButtonEdit.UseVisualStyleBackColor = true;
+            this.signupButtonEdit.Visible = false;
+            this.signupButtonEdit.Click += new System.EventHandler(this.signupButtonEdit_Click);
+            // 
+            // skinPanel1Admin
+            // 
+            this.skinPanel1Admin.BackColor = System.Drawing.Color.Transparent;
+            this.skinPanel1Admin.Controls.Add(this.skinComboStatusBox);
+            this.skinPanel1Admin.Controls.Add(this.skinComboLevelBox);
+            this.skinPanel1Admin.Controls.Add(this.skinStatusLabel);
+            this.skinPanel1Admin.Controls.Add(this.skinLevelLabel);
+            this.skinPanel1Admin.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinPanel1Admin.DownBack = null;
+            this.skinPanel1Admin.Location = new System.Drawing.Point(657, 49);
+            this.skinPanel1Admin.MouseBack = null;
+            this.skinPanel1Admin.Name = "skinPanel1Admin";
+            this.skinPanel1Admin.NormlBack = null;
+            this.skinPanel1Admin.Size = new System.Drawing.Size(126, 184);
+            this.skinPanel1Admin.TabIndex = 6;
+            this.skinPanel1Admin.Visible = false;
+            // 
+            // skinComboStatusBox
+            // 
+            this.skinComboStatusBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.skinComboStatusBox.FormattingEnabled = true;
+            this.skinComboStatusBox.Items.AddRange(new object[] {
+            "unEnabled",
+            "Enabled"});
+            this.skinComboStatusBox.Location = new System.Drawing.Point(0, 76);
+            this.skinComboStatusBox.Name = "skinComboStatusBox";
+            this.skinComboStatusBox.Size = new System.Drawing.Size(121, 22);
+            this.skinComboStatusBox.TabIndex = 1;
+            this.skinComboStatusBox.WaterText = "";
+            // 
+            // skinComboLevelBox
+            // 
+            this.skinComboLevelBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.skinComboLevelBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.skinComboLevelBox.FormattingEnabled = true;
+            this.skinComboLevelBox.Location = new System.Drawing.Point(2, 17);
+            this.skinComboLevelBox.Name = "skinComboLevelBox";
+            this.skinComboLevelBox.Size = new System.Drawing.Size(121, 22);
+            this.skinComboLevelBox.TabIndex = 1;
+            this.skinComboLevelBox.WaterText = "";
+            // 
+            // skinStatusLabel
+            // 
+            this.skinStatusLabel.AutoSize = true;
+            this.skinStatusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.skinStatusLabel.BorderColor = System.Drawing.Color.White;
+            this.skinStatusLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinStatusLabel.Location = new System.Drawing.Point(3, 56);
+            this.skinStatusLabel.Name = "skinStatusLabel";
+            this.skinStatusLabel.Size = new System.Drawing.Size(80, 17);
+            this.skinStatusLabel.TabIndex = 0;
+            this.skinStatusLabel.Text = "ユーザー状態";
+            // 
+            // skinLevelLabel
+            // 
+            this.skinLevelLabel.AutoSize = true;
+            this.skinLevelLabel.BackColor = System.Drawing.Color.Transparent;
+            this.skinLevelLabel.BorderColor = System.Drawing.Color.White;
+            this.skinLevelLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinLevelLabel.Location = new System.Drawing.Point(3, 1);
+            this.skinLevelLabel.Name = "skinLevelLabel";
+            this.skinLevelLabel.Size = new System.Drawing.Size(92, 17);
+            this.skinLevelLabel.TabIndex = 0;
+            this.skinLevelLabel.Text = "ユーザーレベル";
+            // 
+            // DeleteButton
+            // 
+            this.DeleteButton.Location = new System.Drawing.Point(479, 373);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(75, 23);
+            this.DeleteButton.TabIndex = 4;
+            this.DeleteButton.Text = "削除";
+            this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Visible = false;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
             // 
             // SignUpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.skinPanel1Admin);
             this.Controls.Add(this.RegdateTimePicker);
             this.Controls.Add(this.brithdayDateTimePicker);
+            this.Controls.Add(this.DeleteButton);
             this.Controls.Add(this.cancleButton);
+            this.Controls.Add(this.signupButtonEdit);
             this.Controls.Add(this.signupButton);
             this.Controls.Add(this.sexSkinComboBox);
             this.Controls.Add(this.skinLabel1);
@@ -547,7 +646,10 @@
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.Label1);
             this.Name = "SignUpForm";
+            this.ShowInTaskbar = false;
             this.Text = "SignUpForm";
+            this.skinPanel1Admin.ResumeLayout(false);
+            this.skinPanel1Admin.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -577,5 +679,12 @@
         private System.Windows.Forms.Button cancleButton;
         private System.Windows.Forms.DateTimePicker brithdayDateTimePicker;
         private System.Windows.Forms.DateTimePicker RegdateTimePicker;
+        private System.Windows.Forms.Button signupButtonEdit;
+        private CCWin.SkinControl.SkinPanel skinPanel1Admin;
+        private CCWin.SkinControl.SkinComboBox skinComboLevelBox;
+        private CCWin.SkinControl.SkinLabel skinLevelLabel;
+        private CCWin.SkinControl.SkinComboBox skinComboStatusBox;
+        private CCWin.SkinControl.SkinLabel skinStatusLabel;
+        private System.Windows.Forms.Button DeleteButton;
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Model
 {
@@ -26,5 +22,6 @@ namespace Model
         /// デフォルト:false
         /// </summary>
         public bool Enabled { get; set; }
+        public string SexName { get; set; }
     }
 }

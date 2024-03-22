@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,11 +17,16 @@ namespace STMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            if (new LoginForm().ShowDialog() == DialogResult.OK)
+            LoginForm f = new LoginForm();
+            if (f.ShowDialog() == DialogResult.OK)
             {
-                Application.Run(new FormFarther());
+                Application.Run(new FormMain(f.PersonModel));
             }
-            else;
+            else
+            {
+                Console.WriteLine("登録失敗");
+            }
+            
         }
     }
 }

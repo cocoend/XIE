@@ -131,7 +131,7 @@
             this.Controls.Add(this.TextboxPassword);
             this.Controls.Add(this.TextboxName);
             this.Name = "LoginForm";
-            this.Text = "Form1";
+            this.Text = "登録";
             this.ResumeLayout(false);
             this.PerformLayout();
 

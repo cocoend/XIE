@@ -1,0 +1,11 @@
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\DAL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\Model.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\Model.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Release\DAL.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Release\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\Common.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Release\Common.pdb

@@ -1,0 +1,6 @@
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\bin\Debug\Common.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\bin\Debug\Common.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\obj\Debug\Common.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\Common\obj\Debug\Common.pdb

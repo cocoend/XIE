@@ -7,3 +7,5 @@ D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.csproj.CoreCompileInpu
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\obj\Debug\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\Common.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\DAL\bin\Debug\Common.pdb

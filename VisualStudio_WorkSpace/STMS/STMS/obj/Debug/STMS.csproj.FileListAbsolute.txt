@@ -16,3 +16,6 @@ D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\Model.pdb
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.SignUpForm.resources
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\DAL.dll
 D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\DAL.pdb
+D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\obj\Debug\STMS.FormMain.resources
+D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\Common.dll
+D:\work\XIE\VisualStudio_WorkSpace\STMS\STMS\bin\Debug\Common.pdb
